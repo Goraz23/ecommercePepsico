@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import Card from "./components/card";
-import Navbar2 from "./components/Navbar2";
+import Card from "../components/card";
+import Navbar2 from "../components/Navbar2";
 import 'boxicons'
 
 
-export default function App (){
+export default function Bebidas (){
   return(
     <div className="">
       <Navbar2></Navbar2>
