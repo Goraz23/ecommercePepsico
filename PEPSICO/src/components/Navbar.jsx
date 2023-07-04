@@ -13,12 +13,12 @@ export default function Navbar (){
                     <input className="bg-white outline-none" type="search" placeholder="Buscar"></input>
                 </div>                
                 <div className="flex flex-row items-center px-4 gap-4">
-                    <box-icon type='solid' name='cart'></box-icon>  
-                    <box-icon name='user-circle'></box-icon> 
+                    <Link to ={"/carrito"}><box-icon type='solid' name='cart'></box-icon></Link>
+                    <Link to ={"/login"}><box-icon name='user-circle'></box-icon></Link>
                 </div>          
             </div>
         </div>
-        <Outlet/>
+        <Outlet></Outlet>
         </>
     )
 }
