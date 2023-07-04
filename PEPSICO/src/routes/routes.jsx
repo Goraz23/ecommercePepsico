@@ -9,6 +9,7 @@ import Login from "../pages/Login";
 import App from "../App";
 import Navbar from "../components/Navbar";
 
+
 export const routes = createBrowserRouter([
     {
         path: "/",
