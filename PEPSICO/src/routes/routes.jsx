@@ -8,7 +8,7 @@ import Carrito from "../pages/Carrito";
 import Login from "../pages/Login";
 import App from "../App";
 import Navbar from "../components/Navbar";
-
+import AddUser from '../pages-dash/Addclientes'
 
 export const routes = createBrowserRouter([
     {
@@ -46,6 +46,10 @@ export const routes = createBrowserRouter([
             {
                 path:"/Login",
                 elements: <Login/>
+            },
+            {
+                path: "/AddUser",
+                element : <AddUser/>
             },
         ]
     },
